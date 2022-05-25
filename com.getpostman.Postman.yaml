@@ -1,4 +1,4 @@
-app-id: com.getpostman.Postman
+app-id: com.contained.Postman
 runtime: org.freedesktop.Platform
 runtime-version: '21.08'
 sdk: org.freedesktop.Sdk
@@ -13,8 +13,6 @@ finish-args:
   - --socket=x11
   - --socket=pulseaudio
   - --share=network
-  - --filesystem=home
-  - --talk-name=com.canonical.AppMenu.Registrar
 modules:
   - name: Postman
     buildsystem: simple
